@@ -816,7 +816,7 @@ some stuff I have not covered. */
   display.buffer.canvas.height = WORLD_HEIGHT;
   display.buffer.canvas.width  = WORLD_WIDTH;
 
-  display.tile_sheet.image.src = "dino.png";
+  display.tile_sheet.image.src = "asset/dino.png";
   display.tile_sheet.image.addEventListener("load", function(event) {
 
     display.tile_sheet.columns = this.width / TILE_SIZE;
